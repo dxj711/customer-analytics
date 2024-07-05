@@ -1,0 +1,229 @@
+:root {
+  --black: black;
+  --font: Questrial, sans-serif;
+  --white: white;
+}
+
+.w-layout-blockcontainer {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.div-block {
+  background-image: url('../images/logo.png');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.main {
+  opacity: 1;
+  -webkit-text-fill-color: inherit;
+  background-color: #000;
+  background-clip: border-box;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.container {
+  grid-column-gap: 31px;
+  grid-row-gap: 31px;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin-left: 650px;
+  margin-right: 0;
+  display: flex;
+}
+
+.button {
+  border-radius: 2px;
+}
+
+.button__browse {
+  background-color: #41fafc;
+  background-image: linear-gradient(#000, #fff);
+  border-radius: 8px;
+  font-family: DM Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.divblock {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: DM Sans, sans-serif;
+  font-size: 42px;
+}
+
+.button-2 {
+  background-color: #000;
+  background-image: linear-gradient(0deg, #000, #fff);
+  border-radius: 8px;
+  padding: 13px 25px;
+  font-family: DM Sans, sans-serif;
+  font-size: 25px;
+}
+
+.main__block {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-flow: column;
+  display: flex;
+}
+
+.home {
+  background-color: var(--black);
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.section {
+  background-color: var(--black);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.heading-2 {
+  font-family: var(--font);
+  color: var(--white);
+  text-align: center;
+  font-weight: 400;
+}
+
+.block__grid {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-content: stretch;
+  display: grid;
+}
+
+.h1 {
+  font-family: var(--font);
+  color: var(--white);
+  text-align: center;
+  font-weight: 400;
+}
+
+.para {
+  font-family: var(--font);
+  text-align: center;
+  font-size: 23px;
+}
+
+
+
+
+.grid__button {
+  background-color: var(--black);
+  pointer-events: auto;
+  font-family: var(--font);
+  text-align: center;
+  vertical-align: baseline;
+  border: 1px solid #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 25px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.grid__button:hover {
+  color: #948a8a;
+  border-color: #7c7777;
+}
+
+.grid__element {
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  font-family: var(--font);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading-3 {
+  font-weight: 400;
+}
+
+.div-block-2 {
+  background-image: url('../images/logo.png');
+  background-position: 50%;
+  background-size: cover;
+  width: 102px;
+  height: 100px;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.div-block-3 {
+  background-image: url('../images/logo.png');
+  background-position: 50%;
+  background-size: cover;
+  width: 102px;
+  height: 90px;
+}
+
+.section-2, .body {
+  background-color: var(--black);
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-2 {
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    width: 52px;
+    height: 61px;
+    position: absolute;
+    top: 0;
+  }
+}
+
+#w-node-cf67011b-92a3-0b3e-77e5-f209f66a1de3-4cb242a6, #w-node-_264a3884-41fd-f696-76f7-49bcf6bb12f0-4cb242a6 {
+  align-self: center;
+  justify-self: center;
+}
+
+
+@font-face {
+  font-family: 'Campton';
+  src: url('../fonts/campton.zip') format('undefined');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
