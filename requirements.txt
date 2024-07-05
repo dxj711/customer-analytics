@@ -1,0 +1,14 @@
+flask
+subprocess
+pandas
+streamlit
+pandasai
+datetime
+matplotlib
+numpy
+seaborn
+plotly
+scikit-learn
+statsmodels
+xgboost
+future
